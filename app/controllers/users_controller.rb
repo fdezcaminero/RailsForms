@@ -1,7 +1,7 @@
 class UsersController < ApplicationController
-
+  include UsersHelper
   def create
-    @user = User.new(username: params[:username], email: params[:email], password: params[:password])
+    User.new(user_params)
 
     if @user.save
       redirect_to users_path
