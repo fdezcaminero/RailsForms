@@ -1,4 +1,4 @@
-# Micro-Reddit Rails Web-App - Models & Migrations
+# Building Forms in Rails
 > This project gave us a chance to actually build some forms, both using nearly-pure HTML and then graduating to using the helper methods that Rails provides.
 
 > Full task description [here](https://www.theodinproject.com/courses/ruby-on-rails/lessons/forms)
